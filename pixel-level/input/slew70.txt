@@ -1,0 +1,18 @@
+#Slew duration vs. slew angle for WFIRST.
+#Parameters:
+#Maximum torque (N-m): 0.400
+#Moment of inertia (pitch-yaw, kg-m^2):    32000
+#Maximum angular rate (deg/sec):  0.120
+#Maximum angular acceleration (rad/sec^2):    1.250e-05
+#Rise time to reach maximum angular acceleration (sec):  2.000
+#
+#Slew types:
+# 1 = Jerk-limited: acceleration never reaches maximum value.
+# 2 = Acceleration-limited: angular rate never reaches maximum value.
+# 3 = Rate-limited: angular rate does reach maximum value.
+#
+#
+#Slew angle   Slew time   Slew+Settle   Slew type
+# (degrees)   (seconds)    (seconds)
+   0             70.0       70.0        2
+  89.0000       70.0      70.0        3
